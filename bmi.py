@@ -40,12 +40,13 @@ if (st.button('Calculate BMI')):
 
     # give the interpretation of BMI index
     if (bmi < 16):
-        st.error(f'hey {name} you are extremely underweight! Please visit a Dietician')
+        st.error(f'😟 hey {name} you are extremely underweight! Please visit a Dietician')
     elif (bmi >= 16 and bmi < 18.5):
         st.warning(f'{name} you are underweight, You need to take your health serious')
     elif (bmi >= 18.5 and bmi < 25):
-        st.success(f'😀 You are healthy {name} , Keep it up')
+        st.success(f'😀 You are healthy {name} , Keep it up ')
     elif (bmi >= 25 and bmi < 30):
         st.warning(f'Hello {name} you are overweight')
     else:
-        st.error(f'OOOps {name}, You are Obesed')
+        st.error(f'😨 {name}, You are Obesed' + 
+                'At least 2.8 million people each year die as a result of being overweight or obese, \nAccording to world health Organization')
