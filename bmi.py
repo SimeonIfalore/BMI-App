@@ -50,4 +50,4 @@ if (st.button('Calculate BMI')):
     else:
         st.error(f'😨 {name}, You are Obesed' + " "+
                 'At least 2.8 million people each year die as a result of being overweight or obese, 
-                \nAccording to world health Organization. For useful tips follow this link [link](https://www.mayoclinic.org/diseases-conditions/obesity/diagnosis-treatment/drc-20375749)")')
+                \nAccording to world health Organization. For useful tips follow this link [link](https://www.mayoclinic.org/diseases-conditions/obesity/diagnosis-treatment/drc-20375749)')
