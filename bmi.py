@@ -42,6 +42,8 @@ if (st.button('Calculate BMI')):
     # give the interpretation of BMI index
     if (bmi < 16):
         st.error(f'😟 hey {name} you are extremely underweight! Please visit a Dietician')
+         st.write("For useful tips [link](https://www.who.int/health-topics/malnutrition)")
+       
     elif (bmi >= 16 and bmi < 18.5):
         st.warning(f'{name} you are underweight, You need to take your health serious')
     elif (bmi >= 18.5 and bmi < 25):
