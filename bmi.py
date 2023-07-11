@@ -49,4 +49,5 @@ if (st.button('Calculate BMI')):
         st.warning(f'Hello {name} you are overweight')
     else:
         st.error(f'😨 {name}, You are Obesed' + " "+
-                '\nAt least 2.8 million people each year die as a result of being overweight or obese,\nAccording to world health Organization.'+ 'For useful tips check out this' [link](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py))
+                '\nAt least 2.8 million people each year die as a result of being overweight or obese,\nAccording to world health Organization.')
+        st.write("For useful tips [link](https://www.mayoclinic.org/diseases-conditions/obesity/diagnosis-treatment/drc-20375749)")
