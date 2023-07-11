@@ -48,5 +48,5 @@ if (st.button('Calculate BMI')):
     elif (bmi >= 25 and bmi < 30):
         st.warning(f'Hello {name} you are overweight')
     else:
-        st.error(f'😨 {name}, You are Obesed' + 
+        st.error(f'😨 {name}, You are Obesed' + " "+
                 'At least 2.8 million people each year die as a result of being overweight or obese, \nAccording to world health Organization')
