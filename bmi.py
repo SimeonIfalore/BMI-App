@@ -3,7 +3,7 @@ st.title('Simeon\'s BMI Calculator')
 
 #adding images
 from PIL import Image
-image = Image.open("C:\\Users\\Simeon\\Downloads\\pexels-pixabay-209887.jpg")
+image = Image.open("pexels-pixabay-209887.jpg")
 st.image(image, width= 500)
 
 #INPUTING PARAMETERS
