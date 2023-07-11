@@ -1,6 +1,7 @@
 import streamlit as st
 st.title('Simeon\'s BMI Calculator')
-st.write('This is a BMI calculator that takes into consideration the height and weight of the individual. \nAlthough it is a useful tool,' +
+st.write('This is a BMI calculator that takes into consideration the height and weight of the individual. 
++'\nAlthough it is a useful tool,' +
 'further testing is encouraged therefore this tool should not be used for final diagnosis')
 #adding images
 from PIL import Image
