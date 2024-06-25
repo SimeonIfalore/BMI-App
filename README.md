@@ -1,4 +1,4 @@
-# BMI-App 
+# TO USE THE BMI APP (CLICK OPEN IN STREAMLIT)
 Launch the web app:
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bmi-app-5gl5j5le7bs.streamlit.app)
 
