@@ -52,7 +52,7 @@ While BMI is a useful general indicator, it doesn't account for factors such as 
 
 ## 📸 Preview
 
-![App Screenshot](streamlit bmi preview.jpg)  
+![App Screenshot](https://github.com/SimeonIfalore/BMI-Calculator-Application/blob/main/streamlit%20bmi%20preview.jpg)  
 *Example of BMI feedback based on input*
 
 ---
